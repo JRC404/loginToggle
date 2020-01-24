@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("font/Gilroy-ExtraBold.otf");
+    src: url("font/Gilroy-Light.otf");
+}
+
+body {
+    margin: 0;
+    font-family: "Gilroy";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: orangered;
+}
+
+input[type=text],
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#divider {
+    padding: 20px;
+    margin-top: 5vh;
+    background-color: white;
+    height: 100vh;
+}
+
+a#signOut:hover {
+    border-color: #e6973186;
+}
+
+a#signOut:active {
+    background-color: #e6973186;
+}
