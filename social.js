@@ -27,7 +27,7 @@ const signOutFunction = () => {
     // signedIn = false
     emailInput.style.display = "inline";
     passwordInput.style.display = "inline";
-    signup.style.display = "inline";
+    signup.style.display = "block";
     signOut.style.display = "none";
     // header.textContent = `Goodbye, ${username}. Don't forget, I have your password: ${password}`;
     header.style.display = "none";
@@ -38,7 +38,7 @@ const signedInFunction = () => {
     emailInput.style.display = "none";
     passwordInput.style.display = "none";
     signup.style.display = "none";
-    signOut.style.display = "inline";
+    signOut.style.display = "block";
     header.style.display = "inline";
     header.textContent = `Hello, ${username}, your password is: ${password}`;
 }
